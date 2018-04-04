@@ -1,9 +1,9 @@
 function forLoop(array){
-  for(var i=0; i<25;i++){
-    if(i===1){
-      array[i]="I am ${x} strange loop.";
+  for(var x=0; x<25;x++){
+    if(x===1){
+      array.push('I am ${x} strange loop.');
     }else{
-      array[i]="I am ${x} strange loops.";
+      array.push('I am ${x} strange loops.');
     }
   }
 }
